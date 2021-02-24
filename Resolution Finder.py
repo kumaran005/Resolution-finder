@@ -26,8 +26,7 @@ class Load_image:
         image = ImageTk.PhotoImage(image)
         label.configure(image = image)
         label.image = image
-      
-#find Resolution        
+             
 class Find_size(Load_image):
    
     def check_resolution(self):
